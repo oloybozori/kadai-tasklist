@@ -25,5 +25,7 @@
     @endif
     
     {!! link_to_route('tasks.create', 'New Task', [], ['class' => 'btn btn-secondary']) !!}
+    {!! link_to_route('signup.get', 'Registration', [], ['class' => 'btn btn-secondary']) !!}
+    
 
 @endsection
