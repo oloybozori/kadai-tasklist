@@ -25,7 +25,9 @@
     @endif
     
     {!! link_to_route('tasks.create', 'New Task', [], ['class' => 'btn btn-secondary']) !!}
+    {!! link_to_route('login.get', 'Log in', [], ['class' => 'btn btn-secondary']) !!}
+    {!! link_to_route('logout.get', 'Log out', [], ['class' => 'btn btn-secondary']) !!}
     {!! link_to_route('signup.get', 'Registration', [], ['class' => 'btn btn-secondary']) !!}
-    
+
 
 @endsection
