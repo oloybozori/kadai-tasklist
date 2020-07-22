@@ -12,6 +12,11 @@
         <header class="mb-4">
             <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="/">Tasklist</a>
+                @if(Auth::check())
+                    <span class="navbar-text">
+                        Login with {{ Auth::user()->name }}
+                    </span>
+                @endif
             </nav>
         </header>
 
